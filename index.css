@@ -1,0 +1,31 @@
+body {
+  background: #521313;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.imagen-principal img {
+  width: 400px;
+}
+
+.miniaturas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.miniatura {
+  width: 80px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.miniatura.seleccionada {
+  border: 2px solid rgb(0, 0, 0);
+}
